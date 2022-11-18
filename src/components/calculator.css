@@ -1,8 +1,14 @@
+.calculator {
+  display: flex;
+  justify-content: space-around;
+}
 .calculator-container {
   display: flex;
   flex-direction: column;
-  width: 40rem;
-  margin: 0 auto;
+  width: 60rem;
+  margin: auto;
+  margin-block-start: -8rem;
+  margin-inline-end: 3rem;
 }
 
 .result-display {
@@ -23,6 +29,7 @@
 
 .calculator-header {
   margin-inline-start: 5rem;
+  margin-block-start: 2.7rem;
 }
 
 .calculator-buttons {
@@ -32,7 +39,7 @@
 }
 
 .button {
-  width: 10rem;
+  width: 15rem;
   background-color: #c5c1c1;
   height: 5rem;
   font-size: 24px;
@@ -45,7 +52,7 @@
 }
 
 .double-row {
-  width: 20rem;
+  width: 30rem;
 }
 
 /* Navbar Stylings */
