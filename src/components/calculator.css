@@ -21,6 +21,10 @@
   font-weight: bolder;
 }
 
+.calculator-header {
+  margin-inline-start: 5rem;
+}
+
 .calculator-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -42,4 +46,37 @@
 
 .double-row {
   width: 20rem;
+}
+
+/* Navbar Stylings */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  margin-inline-start: 5rem;
+}
+
+.page {
+  margin: 10px;
+  color: rgb(38, 38, 246);
+}
+
+.pages {
+  margin-inline-end: 3rem;
+}
+
+.about-calculators {
+  margin-inline-start: 5rem;
+  margin-top: 50px;
+  margin-inline-end: 1.5rem;
+}
+
+.quote {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 13rem;
 }
