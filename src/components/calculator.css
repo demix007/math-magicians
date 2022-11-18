@@ -1,8 +1,14 @@
+.calculator {
+  display: flex;
+  justify-content: space-around;
+}
 .calculator-container {
   display: flex;
   flex-direction: column;
-  width: 40rem;
-  margin: 0 auto;
+  width: 60rem;
+  margin: auto;
+  margin-block-start: -8rem;
+  margin-inline-end: 3rem;
 }
 
 .result-display {
@@ -21,6 +27,11 @@
   font-weight: bolder;
 }
 
+.calculator-header {
+  margin-inline-start: 5rem;
+  margin-block-start: 2.7rem;
+}
+
 .calculator-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +39,7 @@
 }
 
 .button {
-  width: 10rem;
+  width: 15rem;
   background-color: #c5c1c1;
   height: 5rem;
   font-size: 24px;
@@ -41,5 +52,38 @@
 }
 
 .double-row {
-  width: 20rem;
+  width: 30rem;
+}
+
+/* Navbar Stylings */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  margin-inline-start: 5rem;
+}
+
+.page {
+  margin: 10px;
+  color: rgb(38, 38, 246);
+}
+
+.pages {
+  margin-inline-end: 3rem;
+}
+
+.about-calculators {
+  margin-inline-start: 5rem;
+  margin-top: 50px;
+  margin-inline-end: 1.5rem;
+}
+
+.quote {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 13rem;
 }
