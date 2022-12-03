@@ -46,7 +46,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 - GitHub: [@githubhandle]([https://github.com/githubhandle](https://github.com/demix007))
 - Twitter: [@twitterhandle][(https://twitter.com/twitterhandle)](https://twitter.com/dat_dope_demix)
-- LinkedIn: [LinkedIn][(https://linkedin.com/in/linkedinhandle)](https://linkedin.com/in/ayodeji-abidemi-b76935218)
+- LinkedIn: [LinkedIn][(https://linkedin.com/in/linkedinhandle)](https://linkedin.com/in/ayodejiabidemi)
 
 
 
